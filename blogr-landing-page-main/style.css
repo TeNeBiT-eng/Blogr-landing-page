@@ -15,13 +15,13 @@ header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 4vh;
 }
 header nav div img {
   width: 4rem;
 }
 header nav ul {
   display: none;
-}
-header nav div {
-  display: flex;
 }/*# sourceMappingURL=style.css.map */
