@@ -3,8 +3,9 @@
   margin: 0;
   box-sizing: border-box;
   list-style-type: none;
+  text-decoration: none;
 }
 
 header {
-  font-family: "Overpass", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }/*# sourceMappingURL=style.css.map */
