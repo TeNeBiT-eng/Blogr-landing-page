@@ -1,23 +1,28 @@
-header{
-    font-family: $Ubuntu;
-    background: linear-gradient(to bottom,hsl(13, 100%, 72%), hsl(353, 100%, 62%));
-    // background-image: url(/blogr-landing-page-main/images/bg-pattern-intro-mobile.svg);
-    // background-repeat: no-repeat;
-    // border-bottom-left-radius: 20px;
-    nav{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 90%;
-        margin: 0 auto;
-        padding: 4vh ;
-        .imgContainer{
-            img{
-                width: 4rem;
-            }
-        }
-        .navItem{
-            display: none;
-        }
+@import "./../components/media";
+header {
+  font-family: $Ubuntu;
+  background: linear-gradient(
+    to bottom,
+    hsl(13, 100%, 72%),
+    hsl(353, 100%, 62%)
+  );
+  // background-image: url(/blogr-landing-page-main/images/bg-pattern-intro-mobile.svg);
+  // background-repeat: no-repeat;
+  // border-bottom-left-radius: 20px;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 4vh;
+    .imgContainer {
+      img {
+        width: 4rem;
+      }
     }
+    .navItem {
+      display: none;
+    }
+  }
 }
