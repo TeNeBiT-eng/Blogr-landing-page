@@ -3,9 +3,18 @@
         .logo_ul{
             display: flex;
             column-gap: 2rem;
-        }
-        .navItem{
-            display: flex !important;
+            align-items: center;
+            ul{
+                display: flex !important;
+                .navLists{
+                    ul{
+                        display: block !important;
+                        li{
+                            display: none;
+                        }
+                    }
+                }
+            }
         }
         ul{
             display: flex;
@@ -16,6 +25,9 @@
                     display: block;
                 }
             }
+        }
+        .login_signup{
+            display: flex !important;
         }
         .bars{
             display: none;

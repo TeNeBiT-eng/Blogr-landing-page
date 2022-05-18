@@ -7,14 +7,27 @@
   font-size: 16px;
 }
 
+h1 {
+  color: white;
+  font-size: 2rem;
+  font-family: "Overpass", sans-serif;
+}
+
 @media (min-width: 900px) {
   header .logo_ul {
     display: flex;
     -moz-column-gap: 2rem;
          column-gap: 2rem;
+    align-items: center;
   }
-  header .navItem {
+  header .logo_ul ul {
     display: flex !important;
+  }
+  header .logo_ul ul .navLists ul {
+    display: block !important;
+  }
+  header .logo_ul ul .navLists ul li {
+    display: none;
   }
   header ul {
     display: flex;
@@ -25,13 +38,15 @@
   header ul .navLists ul {
     display: block;
   }
+  header .login_signup {
+    display: flex !important;
+  }
   header .bars {
     display: none;
   }
 }
 header {
   font-family: "Ubuntu", sans-serif;
-  background: linear-gradient(to bottom, hsl(13deg, 100%, 72%), hsl(353deg, 100%, 62%));
 }
 header nav {
   display: flex;
@@ -41,9 +56,21 @@ header nav {
   margin: 0 auto;
   padding-top: 10vh;
 }
+header nav .logo_ul ul {
+  display: none;
+}
 header nav .imgContainer img {
   width: 4rem;
 }
-header nav .navItem {
+header nav .login_signup {
   display: none;
+}
+
+.section1 {
+  background: linear-gradient(to bottom, hsl(13deg, 100%, 72%), hsl(353deg, 100%, 62%));
+}
+.section1 .motherContainer1 {
+  background-image: url(/blogr-landing-page-main/images/bg-pattern-intro-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }/*# sourceMappingURL=style.css.map */
