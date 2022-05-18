@@ -1,3 +1,13 @@
+p{
+    text-align: center;
+    color: white;
+    width: 78%;
+    margin: 0 auto;
+    line-height: 1.5;
+    padding-top: 1rem;
+    font-family: $Ubuntu;
+    font-weight: 300;
+}
 h1{
     color: white;
     font-size: 2rem;
@@ -8,13 +18,7 @@ h1{
     margin: 0 auto;
     padding-top: 7rem;
 }
-p{
-    text-align: center;
-    color: white;
-    width: 78%;
-    margin: 0 auto;
-    line-height: 1.5;
-    padding-top: 1rem;
-    font-family: $Ubuntu;
-    font-weight: 300;
+h4{
+    color: $headerText;
+    text-align: center;   
 }

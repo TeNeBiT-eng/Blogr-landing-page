@@ -1,40 +1,17 @@
-// backround-colors
-// $Light red (CTA text): hsl(356, 100%, 66%)
-// $Very light red (CTA hover background): hsl(355, 100%, 74%)
-// $Very dark blue (headings): hsl(208, 49%, 24%)
-
-// $White (text): hsl(0, 0%, 100%)
-// $Grayish blue (footer text): hsl(240, 2%, 79%)
-// $Very dark grayish blue (body copy): hsl(207, 13%, 34%)
-// $Very dark black blue (footer background): hsl(240, 10%, 16%)
-
 // text
 $headerText: hsl(208, 49%, 24%);
 $footerText: hsl(240, 2%, 79%);
+$dropdownText: hsl(208, 49%, 24%);
 
 
 // background
 $footerBackground: hsl(240, 10%, 16%);
+$hoverBackground: hsl(355, 100%, 74%);
 
+// bg-gradient
+$bodyBgGrayBlue: hsl(237, 17%, 21%);
+$bodyBgDesaturatedBlue: hsl(237, 23%, 32%);
 
 // font
 $Overpass: 'Overpass', sans-serif;
 $Ubuntu: 'Ubuntu', sans-serif;
-
-
-
-
-col{
-    color: hsl(207, 13%, 34%)
-    hsl(237, 17%, 21%)
-hsl(237, 23%, 32%);
-}
-
-
-
-
-
-
-
-// font-family: 'Ubuntu', sans-serif;
-// font-family: 'Overpass', sans-serif;
