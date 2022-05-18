@@ -16,5 +16,27 @@
 
 .section2{
     margin-top: 4rem;
-    
 }
+.img_deviceContainer{
+    padding-top: 3rem;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    img{
+        width: 100%;
+    }
+}
+ul{
+    li{
+        h4{
+            width: 70%;
+            margin: 0 auto;
+            padding-top: 2rem;
+        }
+        p{
+            line-height: 2;
+            color: $bodyBgDesaturatedBlue;
+        }
+    }
+}
+
