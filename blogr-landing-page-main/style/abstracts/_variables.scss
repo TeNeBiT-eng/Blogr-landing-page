@@ -8,6 +8,14 @@
 // $Very dark grayish blue (body copy): hsl(207, 13%, 34%)
 // $Very dark black blue (footer background): hsl(240, 10%, 16%)
 
+// text
+$headerText: hsl(208, 49%, 24%);
+$footerText: hsl(240, 2%, 79%);
+
+
+// background
+$footerBackground: hsl(240, 10%, 16%);
+
 
 // font
 $Overpass: 'Overpass', sans-serif;
@@ -16,7 +24,11 @@ $Ubuntu: 'Ubuntu', sans-serif;
 
 
 
-
+col{
+    color: hsl(207, 13%, 34%)
+    hsl(237, 17%, 21%)
+hsl(237, 23%, 32%);
+}
 
 
 

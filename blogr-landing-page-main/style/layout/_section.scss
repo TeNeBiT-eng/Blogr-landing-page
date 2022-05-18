@@ -4,9 +4,12 @@
     hsl(13, 100%, 72%),
     hsl(353, 100%, 62%)
   );
+  border-bottom-left-radius: 6rem;
   .motherContainer1{
+    padding-bottom: 8rem;
     background-image: url(/blogr-landing-page-main/images/bg-pattern-intro-mobile.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% 100%;
+    ba
   }
 }

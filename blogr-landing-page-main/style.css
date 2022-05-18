@@ -1,9 +1,26 @@
+col {
+  color: hsl(207deg, 13%, 34%) hsl(237deg, 17%, 21%) hsl(237deg, 23%, 32%);
+}
+
 .btn_flex {
+  width: 78%;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
-  -moz-column-gap: 2rem;
-       column-gap: 2rem;
+  -moz-column-gap: 0.8rem;
+       column-gap: 0.8rem;
+  align-items: baseline;
+}
+.btn_flex .btnContainer {
   padding-top: 2rem;
+}
+.btn_flex .btnContainer button {
+  border-radius: 1.2rem;
+  border: none;
+  padding: 0.7rem 1.6rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
 }
 
 * {
@@ -76,7 +93,7 @@ header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
+  width: 78%;
   margin: 0 auto;
   padding-top: 10vh;
 }
@@ -92,9 +109,11 @@ header nav .login_signup {
 
 .section1 {
   background: linear-gradient(to bottom, hsl(13deg, 100%, 72%), hsl(353deg, 100%, 62%));
+  border-bottom-left-radius: 6rem;
 }
 .section1 .motherContainer1 {
+  padding-bottom: 8rem;
   background-image: url(/blogr-landing-page-main/images/bg-pattern-intro-mobile.svg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% 100%;
 }/*# sourceMappingURL=style.css.map */
