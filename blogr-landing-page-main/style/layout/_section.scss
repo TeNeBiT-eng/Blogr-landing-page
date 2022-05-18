@@ -1,11 +1,11 @@
-.section1{
-    background: linear-gradient(
+.section1 {
+  background: linear-gradient(
     to bottom,
     hsl(13, 100%, 72%),
     hsl(353, 100%, 62%)
   );
   border-bottom-left-radius: 6rem;
-  .motherContainer1{
+  .motherContainer1 {
     padding-bottom: 8rem;
     background-image: url(/blogr-landing-page-main/images/bg-pattern-intro-mobile.svg);
     background-repeat: no-repeat;
@@ -14,29 +14,46 @@
   }
 }
 
-.section2{
-    margin-top: 4rem;
+.section2 {
+  margin-top: 4rem;
 }
-.img_deviceContainer{
-    padding-top: 3rem;
+.img_deviceContainer {
+  padding-top: 3rem;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  img {
     width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    img{
-        width: 100%;
-    }
+  }
 }
-ul{
-    li{
-        h4{
-            width: 70%;
-            margin: 0 auto;
-            padding-top: 2rem;
-        }
-        p{
-            line-height: 2;
-            color: $bodyBgDesaturatedBlue;
-        }
+ul {
+  li {
+    h4 {
+      width: 70%;
+      margin: 0 auto;
+      padding-top: 2rem;
     }
+    p {
+      line-height: 2;
+      color: $bodyBgDesaturatedBlue;
+    }
+  }
 }
 
+.section3 {
+    position: relative;
+    .img_deviceContainer{
+        
+    }
+  .section3_h1_p {
+    background: linear-gradient(
+      to right,
+      hsl(237, 17%, 21%),
+      hsl(237, 23%, 32%)
+    );
+    transform: translateY(-3rem);
+    padding-bottom: 6rem;
+    border-bottom-left-radius: 9rem;
+    border-top-right-radius: 9rem;
+  }
+}

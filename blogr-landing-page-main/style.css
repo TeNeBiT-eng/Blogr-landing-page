@@ -145,4 +145,15 @@ ul li h4 {
 ul li p {
   line-height: 2;
   color: hsl(237deg, 23%, 32%);
+}
+
+.section3 {
+  position: relative;
+}
+.section3 .section3_h1_p {
+  background: linear-gradient(to right, hsl(237deg, 17%, 21%), hsl(237deg, 23%, 32%));
+  transform: translateY(-3rem);
+  padding-bottom: 6rem;
+  border-bottom-left-radius: 9rem;
+  border-top-right-radius: 9rem;
 }/*# sourceMappingURL=style.css.map */
