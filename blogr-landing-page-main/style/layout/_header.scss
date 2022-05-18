@@ -1,4 +1,4 @@
-@import "./../components/media";
+// @import "./../components/media";
 header {
   font-family: $Ubuntu;
   background: linear-gradient(
@@ -15,7 +15,7 @@ header {
     align-items: center;
     width: 90%;
     margin: 0 auto;
-    padding: 4vh;
+    padding-top: 10vh;
     .imgContainer {
       img {
         width: 4rem;
