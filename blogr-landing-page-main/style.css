@@ -53,6 +53,9 @@ h1 {
 h4 {
   color: hsl(208deg, 49%, 24%);
   text-align: center;
+  font-family: "Overpass", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
 }
 
 @media (min-width: 900px) {
@@ -101,7 +104,7 @@ header nav {
 header nav .logo_ul ul {
   display: none;
 }
-header nav .imgContainer img {
+header nav .img_logoContainer img {
   width: 4rem;
 }
 header nav .login_signup {
@@ -121,5 +124,5 @@ header nav .login_signup {
 }
 
 .section2 {
-  margin-top: 3rem;
+  margin-top: 4rem;
 }/*# sourceMappingURL=style.css.map */

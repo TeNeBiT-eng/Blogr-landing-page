@@ -20,5 +20,8 @@ h1{
 }
 h4{
     color: $headerText;
-    text-align: center;   
+    text-align: center;
+    font-family: $Overpass;
+    font-size: 1.6rem;
+    font-weight: 400;   
 }
