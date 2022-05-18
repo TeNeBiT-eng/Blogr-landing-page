@@ -10,7 +10,21 @@
 h1 {
   color: white;
   font-size: 2rem;
+  font-weight: 500;
   font-family: "Overpass", sans-serif;
+  text-align: center;
+  width: 78%;
+  margin: 0 auto;
+  padding-top: 7rem;
+}
+
+p {
+  text-align: center;
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 1.5;
+  padding-top: 1rem;
 }
 
 @media (min-width: 900px) {
