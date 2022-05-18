@@ -11,12 +11,12 @@ header{
         width: 90%;
         margin: 0 auto;
         padding: 4vh ;
-        div{
+        .imgContainer{
             img{
                 width: 4rem;
             }
         }
-        ul{
+        .navitem{
             display: none;
         }
     }

@@ -7,6 +7,23 @@
   font-size: 16px;
 }
 
+@media (min-width: 900px) {
+  header .navItem {
+    display: flex;
+  }
+  header ul {
+    display: flex;
+    justify-content: space-between;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+  }
+  header ul .navLists ul {
+    display: block;
+  }
+  header .bars {
+    display: none;
+  }
+}
 header {
   font-family: "Ubuntu", sans-serif;
   background: linear-gradient(to bottom, hsl(13deg, 100%, 72%), hsl(353deg, 100%, 62%));
@@ -19,9 +36,9 @@ header nav {
   margin: 0 auto;
   padding: 4vh;
 }
-header nav div img {
+header nav .imgContainer img {
   width: 4rem;
 }
-header nav ul {
+header nav .navitem {
   display: none;
 }/*# sourceMappingURL=style.css.map */
