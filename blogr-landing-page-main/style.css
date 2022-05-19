@@ -156,8 +156,18 @@ ul li p {
   position: relative;
   z-index: -1;
 }
-.section3 .section3_h1_p img {
-  transform: translateY(10%);
+.section3 .section3_h1_p {
+  position: relative;
+}
+.section3 .section3_h1_p .bg {
+  background: linear-gradient(to right, hsl(237deg, 17%, 21%), hsl(237deg, 23%, 32%));
+  height: 10rem;
+  border-top-right-radius: 10rem;
+  transform: translateY(-4rem);
+}
+.section3 .img_circle img {
+  transform: translateY(-140%);
   width: 100%;
   position: absolute;
+  z-index: -1;
 }/*# sourceMappingURL=style.css.map */

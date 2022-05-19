@@ -66,16 +66,26 @@ ul {
     z-index: -1;
     }
     .section3_h1_p {
-    img{
-      transform: translateY(10%);
-      width: 100%;
-      position: absolute;
-    }
+      position: relative;
+      
       .bg{
-        //   transform: translateY(-6rem);
-        //   position: relative;
-        //   z-index: 100;
+        background: linear-gradient(
+          to right,
+          hsl(237, 17%, 21%),
+          hsl(237, 23%, 32%)
+        );
+          height: 10rem;
+          border-top-right-radius: 10rem;
+          transform: translateY(-4rem);
     }
     
+  }
+  .img_circle{
+    img{
+      transform: translateY(-140%);
+      width: 100%;
+      position: absolute;
+      z-index: -1;
+    }
   }
 }
