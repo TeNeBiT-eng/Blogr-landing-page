@@ -153,4 +153,11 @@ ul li p {
   padding-bottom: 6rem;
   border-bottom-left-radius: 9rem;
   border-top-right-radius: 9rem;
+  position: relative;
+  z-index: -1;
+}
+.section3 .section3_h1_p img {
+  transform: translateY(10%);
+  width: 100%;
+  position: absolute;
 }/*# sourceMappingURL=style.css.map */

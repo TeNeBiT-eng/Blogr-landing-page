@@ -61,11 +61,16 @@ ul {
     padding-bottom: 6rem;
     border-bottom-left-radius: 9rem;
     border-top-right-radius: 9rem;
-    // position: relative;
+    position: relative;
     // top: 50%;
+    z-index: -1;
     }
     .section3_h1_p {
-      
+    img{
+      transform: translateY(10%);
+      width: 100%;
+      position: absolute;
+    }
       .bg{
         //   transform: translateY(-6rem);
         //   position: relative;
