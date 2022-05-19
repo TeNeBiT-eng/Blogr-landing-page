@@ -147,18 +147,10 @@ ul li p {
   color: hsl(237deg, 23%, 32%);
 }
 
-.section3 .section3_h1_p {
+.section3 .test {
   background: linear-gradient(to right, hsl(237deg, 17%, 21%), hsl(237deg, 23%, 32%));
   padding-top: 3rem;
-  transform: translateY(-3rem);
   padding-bottom: 6rem;
   border-bottom-left-radius: 9rem;
   border-top-right-radius: 9rem;
-}
-.section3 .section3_h1_p .bg {
-  background-image: url(/blogr-landing-page-main/images/bg-pattern-circles.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  transform: translateY(-rem);
 }/*# sourceMappingURL=style.css.map */
