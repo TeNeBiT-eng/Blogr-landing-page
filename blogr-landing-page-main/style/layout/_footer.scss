@@ -1,0 +1,20 @@
+footer{
+    background-color: $footerBackground;
+    text-align: center;
+    margin-top: 6rem;
+    border-start-end-radius: 6rem;
+    font-family: $Ubuntu;
+    .footerLogo{
+        padding: 3rem;
+    }
+    ul{
+        .mainList{
+            ul{
+                li{
+                    line-height: 1.5;
+                    color: $footerText;
+                }
+            }
+        }
+    }
+}

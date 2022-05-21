@@ -46,6 +46,7 @@ ul {
   /* border-bottom-left-radius: 6rem; */
   border-start-end-radius: 6rem;
   border-end-start-radius: 6rem;
+  padding-bottom: 2rem;
   .section_3 {
     background-image: url(/blogr-landing-page-main/images/bg-pattern-circles.svg);
     display: flex;
@@ -74,11 +75,22 @@ ul {
         margin: 0 auto;
         padding-top: 0rem;
       }
+      p{
+        width: 100%;
+      }
     }
   }
 }
 
-
+.section4{
+  ul{
+    li{
+      p{
+        width: 86%;
+      }
+    }
+  }
+}
 
 
 
