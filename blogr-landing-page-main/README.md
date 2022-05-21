@@ -90,3 +90,58 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+
+
+
+
+.section3 {
+  // position: absolute;
+  // background-image: url(/blogr-landing-page-main/images/bg-pattern-circles.svg);
+  // background-repeat: no-repeat;
+  // background-size: contain;
+  // background-position: center;
+  // background-position-y: 50%;
+    .img_deviceContainer{
+      transform: translateY(10rem);
+    }
+    .test{
+      background: linear-gradient(
+      to right,
+      hsl(237, 17%, 21%),
+      hsl(237, 23%, 32%)
+    );
+    padding-top: 3rem;
+    // transform: translateY(-3rem);
+    padding-bottom: 6rem;
+    border-bottom-left-radius: 9rem;
+    border-top-right-radius: 9rem;
+    position: relative;
+    // top: 50%;
+    z-index: -1;
+    }
+    .section3_h1_p {
+      position: relative;
+      
+      .bg{
+        background: linear-gradient(
+          to right,
+          hsl(237, 17%, 21%),
+          hsl(237, 23%, 32%)
+        );
+          height: 10rem;
+          border-top-right-radius: 10rem;
+          transform: translateY(-4rem);
+          position: absolute;
+    }
+    
+  }
+  .img_circle{
+    img{
+      transform: translateY(-150%);
+      max-width: 100%;
+      position: absolute;
+      top: ;
+      z-index: -1;
+    }
+  }
+}
