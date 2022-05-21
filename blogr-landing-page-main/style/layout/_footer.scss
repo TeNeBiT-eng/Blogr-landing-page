@@ -3,15 +3,21 @@ footer{
     text-align: center;
     margin-top: 6rem;
     border-start-end-radius: 6rem;
-    font-family: $Ubuntu;
+    font-family: $Overpass;
     .footerLogo{
         padding: 3rem;
     }
     ul{
         .mainList{
+            p{
+                color: white;
+                padding: 1rem;
+                font-size: 1.3rem;
+                padding-top: 2rem;
+            }
             ul{
                 li{
-                    line-height: 1.5;
+                    line-height: 2;
                     color: $footerText;
                 }
             }

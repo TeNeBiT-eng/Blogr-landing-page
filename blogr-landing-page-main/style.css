@@ -68,11 +68,6 @@ h4 {
   font-weight: 600;
 }
 
-h5 {
-  color: white;
-  padding: 2rem;
-}
-
 @media (min-width: 768px) {
   header .logo_ul {
     display: flex;
@@ -212,12 +207,18 @@ footer {
   text-align: center;
   margin-top: 6rem;
   border-start-end-radius: 6rem;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Overpass", sans-serif;
 }
 footer .footerLogo {
   padding: 3rem;
 }
+footer ul .mainList p {
+  color: white;
+  padding: 1rem;
+  font-size: 1.3rem;
+  padding-top: 2rem;
+}
 footer ul .mainList ul li {
-  line-height: 1.5;
+  line-height: 2;
   color: hsl(240deg, 2%, 79%);
 }/*# sourceMappingURL=style.css.map */
