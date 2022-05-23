@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     header{
         .logo_ul{
             display: flex;
@@ -49,6 +49,7 @@
     }
     .section2_mother_container{
         display: flex;
+
         .img_deviceContainer{
             order: 2;
         }

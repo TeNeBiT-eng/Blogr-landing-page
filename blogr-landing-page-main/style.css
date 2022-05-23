@@ -86,7 +86,7 @@ h4 {
   font-weight: 500;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   header .logo_ul {
     display: flex;
     -moz-column-gap: 4rem;
@@ -192,6 +192,7 @@ header nav .login_signup {
   width: 100%;
   margin: 0 auto;
   text-align: center;
+  overflow: hidden;
 }
 .img_deviceContainer img {
   width: 100%;
