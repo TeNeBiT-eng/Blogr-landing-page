@@ -15,7 +15,15 @@ header {
     }
     .img_logoContainer {
       img {
+        cursor: pointer;
         width: 4rem;
+      }
+    }
+    .navLists{
+      span{
+        font-size: small;
+        color: hsl(240, 16%, 92%);
+        cursor: pointer;
       }
     }
     .login_signup{

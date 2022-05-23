@@ -2,15 +2,19 @@
     header{
         .logo_ul{
             display: flex;
-            column-gap: 2rem;
+            column-gap: 4rem;
             align-items: center;
             ul{
                 display: flex !important;
+                column-gap: 2rem;
                 .navLists{
                     ul{
                         display: block !important;
                         li{
                             display: none;
+                            // & :hover{
+                            //     display: block !important;
+                            // }
                         }
                     }
                 }
@@ -24,6 +28,9 @@
             .navLists{
                 ul{
                     display: block;
+                    li{
+                        color: hsl(240, 16%, 92%);
+                    }
                 }
             }
         }
@@ -34,4 +41,33 @@
             display: none;
         }
     }
+    .section1{
+        h1{
+            font-size: 3.5rem;
+            font-weight: 400;
+        }
+    }
+    .section2_mother_container{
+        display: flex;
+        .img_deviceContainer{
+            order: 2;
+        }
+        ul{
+            li{
+                h4{
+                    text-align: start;
+                }
+                p{
+                    text-align: start;
+                    width: 70%;
+                    margin-left: auto;
+                }
+            }
+        }
+    }
 }
+
+
+// @media (min-width: 900px) {
+    
+// }

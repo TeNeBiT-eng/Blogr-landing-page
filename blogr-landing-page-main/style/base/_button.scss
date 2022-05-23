@@ -1,3 +1,7 @@
+button{
+    cursor: pointer;
+}
+
 .btn_flex{
     width: 78%;
     margin: 0 auto;
@@ -6,23 +10,46 @@
     // text-align: center;
     column-gap: 0.8rem;
     align-items: baseline;
-    .btnContainer{
-        padding-top: 2rem;
-        button{
-            border-radius: 1.2rem;
-            border: none;
-            padding: 0.7rem 1.6rem;
-            font-size: 0.8rem;
-            font-weight: 500;
-            font-family: $Ubuntu;
-        }
-    }
+    padding-top: 2rem;
 }
-button{
+.sign_start{
     border-radius: 1.2rem;
     border: none;
-    padding: 0.7rem 1.6rem;
+    padding: 0.7rem 1.4rem;
     font-size: 0.8rem;
     font-weight: 500;
     font-family: $Ubuntu;
+    color:  hsl(356, 100%, 66%);
+    transition: .4s ease-in-out;
+    cursor: pointer;
+    &:hover{
+        background-color: hsl(355, 95%, 77%);
+        color: white;
+        transform: scale(1.09);
+    }
 }
+.learn{
+    cursor: pointer;
+    border-radius: 1.2rem;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    color: white;
+    transition: .4s ease-in-out;
+    &:hover{
+        background-color: white;
+        color: hsl(356, 100%, 66%);
+        transform: scale(1.09);
+    }
+}
+// button{
+//     border-radius: 1.2rem;
+//     border: none;
+//     padding: 0.7rem 1.6rem;
+//     font-size: 0.8rem;
+//     font-weight: 500;
+//     font-family: $Ubuntu;
+//     cursor: pointer;
+    
+// }

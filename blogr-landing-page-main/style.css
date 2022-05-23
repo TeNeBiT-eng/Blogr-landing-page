@@ -1,3 +1,7 @@
+button {
+  cursor: pointer;
+}
+
 .btn_flex {
   width: 78%;
   margin: 0 auto;
@@ -6,26 +10,40 @@
   -moz-column-gap: 0.8rem;
        column-gap: 0.8rem;
   align-items: baseline;
-}
-.btn_flex .btnContainer {
   padding-top: 2rem;
 }
-.btn_flex .btnContainer button {
+
+.sign_start {
   border-radius: 1.2rem;
   border: none;
-  padding: 0.7rem 1.6rem;
+  padding: 0.7rem 1.4rem;
   font-size: 0.8rem;
   font-weight: 500;
   font-family: "Ubuntu", sans-serif;
+  color: hsl(356deg, 100%, 66%);
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+.sign_start:hover {
+  background-color: hsl(355deg, 95%, 77%);
+  color: white;
+  transform: scale(1.09);
 }
 
-button {
+.learn {
+  cursor: pointer;
   border-radius: 1.2rem;
-  border: none;
-  padding: 0.7rem 1.6rem;
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 0.5rem 1rem;
   font-size: 0.8rem;
-  font-weight: 500;
-  font-family: "Ubuntu", sans-serif;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+.learn:hover {
+  background-color: white;
+  color: hsl(356deg, 100%, 66%);
+  transform: scale(1.09);
 }
 
 * {
@@ -39,7 +57,7 @@ button {
 
 p {
   text-align: center;
-  color: white;
+  color: rgba(255, 255, 255, 0.8);
   width: 86%;
   margin: 0 auto;
   line-height: 1.5;
@@ -65,18 +83,20 @@ h4 {
   text-align: center;
   font-family: "Overpass", sans-serif;
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 @media (min-width: 768px) {
   header .logo_ul {
     display: flex;
-    -moz-column-gap: 2rem;
-         column-gap: 2rem;
+    -moz-column-gap: 4rem;
+         column-gap: 4rem;
     align-items: center;
   }
   header .logo_ul ul {
     display: flex !important;
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
   }
   header .logo_ul ul .navLists ul {
     display: block !important;
@@ -94,11 +114,34 @@ h4 {
   header ul .navLists ul {
     display: block;
   }
+  header ul .navLists ul li {
+    color: hsl(240deg, 16%, 92%);
+  }
   header .login_signup {
     display: flex !important;
   }
   header .bars {
     display: none;
+  }
+
+  .section1 h1 {
+    font-size: 3.5rem;
+    font-weight: 400;
+  }
+
+  .section2_mother_container {
+    display: flex;
+  }
+  .section2_mother_container .img_deviceContainer {
+    order: 2;
+  }
+  .section2_mother_container ul li h4 {
+    text-align: start;
+  }
+  .section2_mother_container ul li p {
+    text-align: start;
+    width: 70%;
+    margin-left: auto;
   }
 }
 header {
@@ -116,7 +159,13 @@ header nav .logo_ul ul {
   display: none;
 }
 header nav .img_logoContainer img {
+  cursor: pointer;
   width: 4rem;
+}
+header nav .navLists span {
+  font-size: small;
+  color: hsl(240deg, 16%, 92%);
+  cursor: pointer;
 }
 header nav .login_signup {
   display: none;
@@ -152,6 +201,7 @@ ul li h4 {
   width: 70%;
   margin: 0 auto;
   padding-top: 2rem;
+  font-weight: 300;
 }
 ul li p {
   line-height: 2;

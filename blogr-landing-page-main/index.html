@@ -21,6 +21,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <style>
+      .attribution { font-size: 11px; text-align: center; }
+      .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
   </head>
   <body>
     <main>
@@ -35,7 +39,7 @@
 
                 <ul>
                   <li class="navLists">
-                    Product
+                    <span>Product</span>
                     <img
                       src="/blogr-landing-page-main/images/icon-arrow-light.svg"
                       alt=""
@@ -49,7 +53,7 @@
                     </ul>
                   </li>
                   <li class="navLists">
-                    Company
+                    <span>Company</span>
                     <img
                       src="/blogr-landing-page-main/images/icon-arrow-light.svg"
                       alt=""
@@ -62,7 +66,7 @@
                     </ul>
                   </li>
                   <li class="navLists">
-                    Connect
+                    <span>Connect</span>
                     <img
                       src="/blogr-landing-page-main/images/icon-arrow-light.svg"
                       alt=""
@@ -78,11 +82,10 @@
 
               <div class="login_signup">
                 <ul>
-                  <li>Login</li>
-                  <li class="btnContainer">
-                    <button>
-                      <a href="#" style="color: hsl(356, 100%, 66%)">Sign Up</a>
-                    </button>
+                  <li style="color: hsl(240, 16%, 92%); padding-right: rem; font-size: small;">
+                    Login</li>
+                  <li>
+                    <button class="sign_start">Sign Up</button>
                   </li>
                 </ul>
               </div>
@@ -95,19 +98,11 @@
           <h1>A modern publishing platform</h1>
           <p>Grow your audience and build your online brand</p>
           <div class="btn_flex">
-            <div class="btnContainer">
-              <button style="color: hsl(356, 100%, 66%)">Start for Free</button>
+            <div>
+              <button class="sign_start">Start for Free</button>
             </div>
-            <div class="btnContainer">
-              <button
-                style="
-                  border: 1px solid white;
-                  background-color: rgba(255, 255, 255, 0);
-                  color: white;
-                "
-              >
-                Learn More
-              </button>
+            <div>
+              <button class="learn">Learn More</button>
             </div>
           </div>
         </div>
@@ -123,8 +118,7 @@
               alt=""
             />
           </div>
-
-          <div>
+          
             <ul>
               <li>
                 <h4>Introducing an extensible editor</h4>
@@ -145,14 +139,13 @@
                   customized categories, sections, format, or flow. With this
                   functionality, you’re in full control.
                 </p>
-              </li>
-            </ul>
-          </div>
+        
+                
         </div>
       </section>
 
     
-        <section class="section3">
+        <!-- <section class="section3">
           <div class="section_3">
             <img src="/blogr-landing-page-main/images/illustration-phones.svg" alt="">
             <div class="section3_h1_p">
@@ -222,7 +215,12 @@
               </ul>
             </li>
           </ul>
-        </footer>
+
+          <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="#">Tomisin Babalola</a>.
+          </div>
+        </footer> -->
       
     </main>
   </body>
