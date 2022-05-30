@@ -8,14 +8,19 @@ footer{
         padding: 3rem;
     }
     ul{
-        text-align: start;
+        // text-align: center !important;
+        // width: 10%;
+        // margin: 0 auto;
         p{
             color: white;
-            text-align: start;
-            width: 100% !important;
+            text-align: center;
+            font-weight: 600;
+            // width: 50% !important;
+            // margin: 0 auto;
             padding-bottom: 1rem;
         }
         li{
+            padding-bottom: 1rem;
           a{
               color: $footerText;
           }  

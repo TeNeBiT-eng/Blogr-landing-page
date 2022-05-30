@@ -204,6 +204,21 @@ h4 {
   footer {
     display: flex;
     justify-content: space-around;
+    padding: 5rem;
+  }
+  footer .footerLogo {
+    align-items: flex-start;
+    padding-top: 0rem !important;
+  }
+  footer ul {
+    text-align: start;
+  }
+  footer ul p {
+    width: 100% !important;
+    text-align: start !important;
+  }
+  footer ul li {
+    text-align: start;
   }
 }
 header {
@@ -324,13 +339,13 @@ footer {
 footer .footerLogo {
   padding: 3rem;
 }
-footer ul {
-  text-align: start;
-}
 footer ul p {
   color: white;
-  text-align: start;
-  width: 100% !important;
+  text-align: center;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+footer ul li {
   padding-bottom: 1rem;
 }
 footer ul li a {

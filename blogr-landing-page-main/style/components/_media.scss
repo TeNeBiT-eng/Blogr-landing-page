@@ -134,8 +134,20 @@
         display: flex;
         // align-items: center;
         justify-content: space-around;
+        padding: 5rem;
+        .footerLogo{
+            align-items: flex-start;
+            padding-top: 0rem !important;
+        }
         ul{
-            
+            text-align: start;
+            p{
+                width: 100% !important;
+                text-align: start !important;
+            }
+            li{
+                text-align: start;
+            }
         }
     }
 }
