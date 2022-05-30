@@ -86,6 +86,11 @@ h4 {
   font-weight: 500;
 }
 
+@media (min-width: 600px) {
+  .section_3 img {
+    background-size: cover !important;
+  }
+}
 @media (min-width: 1024px) {
   header .logo_ul {
     display: flex;
@@ -136,6 +141,10 @@ h4 {
   .section2_mother_container .img_deviceContainer {
     order: 2;
   }
+  .section2_mother_container .img_deviceContainer img {
+    width: 150%;
+    transform: translateX(-10%);
+  }
   .section2_mother_container ul li h4 {
     text-align: start;
   }
@@ -146,6 +155,8 @@ h4 {
   }
 
   .section_3 {
+    background-size: 72% !important;
+    background-position: -50% 80% !important;
     display: flex;
     flex-direction: row !important;
     align-items: center;
@@ -156,11 +167,38 @@ h4 {
   }
   .section_3 .section3_h1_p h1 {
     text-align: start !important;
-    width: 70% !important;
+    width: 50% !important;
   }
   .section_3 .section3_h1_p p {
+    line-height: 1.8;
     text-align: start;
-    width: 70% !important;
+    width: 50% !important;
+  }
+  .section_3 img {
+    width: 110% !important;
+    transform: translate(25%, 40%);
+  }
+
+  .section4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+  }
+  .section4 .imgContainer img {
+    width: 200%;
+    transform: translateX(-30%);
+  }
+  .section4 ul {
+    width: 60.4% !important;
+  }
+  .section4 ul li h4 {
+    text-align: start !important;
+    width: 73% !important;
+  }
+  .section4 ul li p {
+    text-align: start !important;
+    width: 73% !important;
   }
 }
 header {
