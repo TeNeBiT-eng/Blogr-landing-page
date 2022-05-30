@@ -8,19 +8,17 @@ footer{
         padding: 3rem;
     }
     ul{
-        .mainList{
-            p{
-                color: white;
-                padding: 1rem;
-                font-size: 1.3rem;
-                padding-top: 2rem;
-            }
-            ul{
-                li{
-                    line-height: 2;
-                    color: $footerText;
-                }
-            }
+        text-align: start;
+        p{
+            color: white;
+            text-align: start;
+            width: 100% !important;
+            padding-bottom: 1rem;
+        }
+        li{
+          a{
+              color: $footerText;
+          }  
         }
     }
 }
