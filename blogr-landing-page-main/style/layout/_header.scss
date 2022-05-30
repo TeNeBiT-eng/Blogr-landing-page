@@ -1,6 +1,9 @@
 // @import "./../components/media";
 header {
   font-family: $Ubuntu;
+  position: fixed;
+  width: 100%;
+  z-index: 200;
   nav {
     display: flex;
     justify-content: space-between;

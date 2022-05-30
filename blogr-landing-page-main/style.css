@@ -91,7 +91,7 @@ h4 {
     background-size: cover !important;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1000px) {
   header .logo_ul {
     display: flex;
     -moz-column-gap: 4rem;
@@ -203,12 +203,13 @@ h4 {
 
   footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 5rem;
   }
   footer .footerLogo {
     align-items: flex-start;
     padding-top: 0rem !important;
+    padding-left: 6rem !important;
   }
   footer ul {
     text-align: start;
@@ -223,6 +224,9 @@ h4 {
 }
 header {
   font-family: "Ubuntu", sans-serif;
+  position: fixed;
+  width: 100%;
+  z-index: 200;
 }
 header nav {
   display: flex;

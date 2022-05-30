@@ -7,7 +7,7 @@
 }
 
 
-@media (min-width: 1024px) {
+@media (min-width: 1000px) {
     header{
         .logo_ul{
             display: flex;
@@ -133,11 +133,12 @@
     footer{
         display: flex;
         // align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
         padding: 5rem;
         .footerLogo{
             align-items: flex-start;
             padding-top: 0rem !important;
+            padding-left: 6rem !important;
         }
         ul{
             text-align: start;
