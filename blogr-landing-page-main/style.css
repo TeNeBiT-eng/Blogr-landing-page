@@ -98,30 +98,6 @@ h4 {
          column-gap: 4rem;
     align-items: center;
   }
-  header .logo_ul ul {
-    display: flex !important;
-    -moz-column-gap: 2rem;
-         column-gap: 2rem;
-  }
-  header .logo_ul ul .navLists ul {
-    display: block !important;
-  }
-  header .logo_ul ul .navLists ul li {
-    display: none;
-  }
-  header ul {
-    display: flex;
-    justify-content: space-between;
-    -moz-column-gap: 1rem;
-         column-gap: 1rem;
-    align-items: center;
-  }
-  header ul .navLists ul {
-    display: block;
-  }
-  header ul .navLists ul li {
-    color: hsl(240deg, 16%, 92%);
-  }
   header .login_signup {
     display: flex !important;
   }
@@ -246,6 +222,9 @@ header nav .img_logoContainer img {
 header nav .navLists span {
   font-size: small;
   color: hsl(240deg, 16%, 92%);
+  cursor: pointer;
+}
+header nav .navLists img {
   cursor: pointer;
 }
 header nav .login_signup {

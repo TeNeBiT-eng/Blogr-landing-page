@@ -13,35 +13,7 @@
             display: flex;
             column-gap: 4rem;
             align-items: center;
-            ul{
-                display: flex !important;
-                column-gap: 2rem;
-                .navLists{
-                    ul{
-                        display: block !important;
-                        li{
-                            display: none;
-                            // & :hover{
-                            //     display: block !important;
-                            // }
-                        }
-                    }
-                }
-            }
-        }
-        ul{
-            display: flex;
-            justify-content: space-between;
-            column-gap: 1rem;
-            align-items: center;
-            .navLists{
-                ul{
-                    display: block;
-                    li{
-                        color: hsl(240, 16%, 92%);
-                    }
-                }
-            }
+            
         }
         .login_signup{
             display: flex !important;
